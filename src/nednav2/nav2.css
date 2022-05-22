@@ -1,0 +1,14 @@
+.nav2
+{
+    width:250px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    top:150px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgb(202, 194, 194);
+}
