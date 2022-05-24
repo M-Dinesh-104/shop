@@ -5,22 +5,25 @@ import Home from './component1/home';
 import Product from './component1/product';
 import Contact from './component1/contact';
 import {route,link} from 'react-router-dom';
+import Nav1 from './nednav1/nav1';
 function App() {
   return (
     // <Router>
     <div className='nav1'>
-      <Home/>
+     <Nav1/>
+      {/* <Home/>
       <About/>
       <Contact/>
-      <Product/>
-      
-  {/* <Route  path="/" component={Home}/>
-  <Route  path="/about" component={About}/>
-  <Route  path="/product" component={Product}/>
-  <Route  path="/contact" component={Contact}/> */}
-  
+      <Product/> */}
+      <Router>
+        <Routes>
+  <Route  path="/" element={<Home/>}/>
+  <Route  path="/about" element={<About/>}/>
+  <Route  path="/product" element={<Product/>}/>
+  <Route  path="/contact" element={<Contact/>}/>
+  </Routes>
+  </Router>
     </div>
-    // </Router>
   );
 }
 

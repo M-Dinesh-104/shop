@@ -1,0 +1,22 @@
+.headnav
+{
+    display: flex ;
+    flex-direction: row;
+    gap: 30px;
+    float: right;
+    margin: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+}
+.top
+{
+    background-color: aqua;
+}
