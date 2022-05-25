@@ -5,6 +5,7 @@
     gap: 30px;
     float: right;
     margin: 20px;
+    background-color: white;
 }
 li{
     list-style-type: none;

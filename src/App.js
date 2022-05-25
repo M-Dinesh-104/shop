@@ -10,7 +10,7 @@ function App() {
   return (
     // <Router>
     <div className='nav1'>
-     <Nav1/>
+    <div className='top'></div>
       {/* <Home/>
       <About/>
       <Contact/>
